@@ -58,13 +58,19 @@ Register-ScheduledTask `
 
 > **실패 로그 예시**
 
+ 해당 이슈는 다음과 같은 이유로 스크립트에서 제외되었습니다. Windows Defender 실시간 보호 엔진 프로세스라서 일반 관리자 권한으로도 종료가 막혀 있습니다.  
+
 ```txt
-
  2026-02-18 13:59:04 - FAILED to stop: MsMpEng - 다음 오류가 발생하여 "MsMpEng (4596)" 프로세스를 중지할 수 없습니다. 액세스가 거부되었습니다
-
 ```
 
 <br>
+
+> **참고하세요**
+
+ <img width="578" height="527" alt="image" src="https://github.com/user-attachments/assets/b1bc0b28-a6f0-45ba-853d-98d5b3d9de63" />
+ <br>
+ 윈도우에 설치된 프로그램들 중에 **자동 실행** 옵션이 있는 경우 비활성화를 해주세요. 그러면 메모리 점유율을 줄일 수 있습니다. 
 
 ---
 
